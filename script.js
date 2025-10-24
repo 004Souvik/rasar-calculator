@@ -194,7 +194,7 @@ submitBtn.addEventListener('click', async () => {
   submitBtn.disabled = true;
 
   try {
-    const response = await fetch('https://rasar-calculator-5.onrender.com', {
+    const response = await fetch('https://rasar-calculator-5.onrender.com/calculate_rasar', {
       method: 'POST',
       body: formData
     });
